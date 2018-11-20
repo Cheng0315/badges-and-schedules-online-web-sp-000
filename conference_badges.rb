@@ -10,7 +10,7 @@ end
 
 def assign_rooms(names_arr)
   names_arr.collect do |ele|
-    "Hello, #{ele}! You'll be assigned to room #{batch_badge_creator(names_arr).index(ele) + 1}!"
+    "Hello, #{ele}! You'll be assigned to room #{names_arr.index(ele) + 1}!"
   end
 end
 
