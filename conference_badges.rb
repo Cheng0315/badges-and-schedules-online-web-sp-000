@@ -11,5 +11,7 @@ def assign_rooms
 end
 
 def printer
-
+  assign_rooms.each do |badge|
+    puts badge
+  end
 end
