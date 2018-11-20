@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(names_arr)
   names_arr.collect do |ele|
-    "Hello, #{ele}!"
+    badge(ele)
   end
 end
 
