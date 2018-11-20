@@ -1,3 +1,7 @@
+def bade_maker(name)
+  "Hello, my name is #{name}."
+end
+
 def batch_badge_creator(names_arr)
   names_arr.collect do |ele|
     "Hello, #{ele}!"
