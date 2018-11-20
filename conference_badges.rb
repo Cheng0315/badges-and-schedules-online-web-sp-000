@@ -18,4 +18,8 @@ def printer(names_arr)
   batch_badge_creator(names_arr).each do |badge|
     puts badge
   end
+
+  assign_rooms(names_arr).each do |badge|
+    puts badge
+  end
 end
